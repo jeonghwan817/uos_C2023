@@ -18,5 +18,5 @@ int main(void) {
 	scanf_s(" %s", depart, 30); // %s로 학과명 변수 입력
 
 	printf("\n당신에 대한 정보입니다.\n");
-	printf("이름 : %s\n생년월일 : %d\n학번 : %d\n학과명 : %s\n", name, birth, number, depart); // 입력받은 모든 변수를 printf에서 %s로 출력
+	printf("이름 : %s\n생년월일 : %d\n학번 : %d\n학과명 : %s\n", name, birth, number, depart); // 입력받은 모든 변수를 printf로 출력
 }
